@@ -8,7 +8,7 @@ const App = () => {
       .then((data) => setData(data));
   }, []);
   return (
-    <div>
+    <div className="text-red-500">
       Articles
       {data.map(({ title }) => (
         <div>{title}</div>
